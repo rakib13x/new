@@ -30,9 +30,6 @@ const Cards = () => {
       .then((response) => response.json())
       .then((data) => {
         setJsonData(data);
-      })
-      .catch((error) => {
-        console.log("Error Fetching data", error);
       });
   }, []);
 
